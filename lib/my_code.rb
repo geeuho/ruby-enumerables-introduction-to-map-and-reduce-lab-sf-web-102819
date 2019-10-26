@@ -45,7 +45,7 @@ def reduce_to_total(array, num)
       num = num + array[i]
       i += 1
     end
-  total 
+  num 
 end
     
 def reduce_to_all_true(array)
