@@ -38,9 +38,11 @@ end
 
 def reduce_to_total(array, num)
   i = 0 
-  total = 0
+  if num == nil 
+    num = 0 
+  end
     while i < array.length do
-      total = total + array[i]
+      num = num + array[i]
       i += 1
     end
   total 
