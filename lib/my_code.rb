@@ -47,7 +47,7 @@ def reduce_to_total(array)
 end
     
 def reduce_to_all_true(array)
-  array.all?{|word| word == true}
+  array.all?{|word| !word == false}
 end
 
 def reduce_to_any_true(array)
