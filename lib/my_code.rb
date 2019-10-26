@@ -37,12 +37,7 @@ def map_to_square(array)
 end
 
 def reduce_to_total(array, num)
-  i = 0 
-    while i < array.length do |total, n|
-      total = total + n
-      i += 1
-    end
-  num 
+  array.reduce(num) { |sum, num| sum + num }
 end
     
 def reduce_to_all_true(array)
