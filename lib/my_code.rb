@@ -38,7 +38,7 @@ end
 
 def reduce_to_total(array)
   i = 0 
-    while i < array.length do 
+    while i < array.length do |total, n|
       num = num + array[i]
       i += 1
     end
